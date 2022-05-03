@@ -70,7 +70,8 @@ Por último, faremos com que o Git grave os históricos deste arquivo no estado 
 
     git add nomedoarquivo.tipo ou git add . -> adiciona um arquivo ou vários na stage.
 
-    git commit -m 'mensagem do que alteramos' ou git commit -am 'mensagem'(para arquivos já rastreados) -> aqui é quando salvamos uma versão do arquivo.  Ou com o -am já mandamos a alteração para o stage e fazemos um commit.
+    git commit -m 'mensagem do que alteramos' ou git commit -am 'mensagem'(para arquivos já rastreados) -> aqui é quando salvamos uma 
+    versão do arquivo.  Ou com o -am já mandamos a alteração para o stage e fazemos um commit.
 
     **DICA! Não faça commits para cada nova linha do arquivo, apenas quando fizer um conjunto de alterações que faça sentido entre si.**
 
