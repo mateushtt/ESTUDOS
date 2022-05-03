@@ -73,9 +73,9 @@ Por último, faremos com que o Git grave os históricos deste arquivo no estado 
     git commit -m 'mensagem do que alteramos' ou git commit -am 'mensagem'(para arquivos já rastreados) -> aqui é quando salvamos uma 
     versão do arquivo.  Ou com o -am já mandamos a alteração para o stage e fazemos um commit.
 
-    **DICA! Não faça commits para cada nova linha do arquivo, apenas quando fizer um conjunto de alterações que faça sentido entre si.**
+    DICA! Não faça commits para cada nova linha do arquivo, apenas quando fizer um conjunto de alterações que faça sentido entre si.
 
-    git log -> visualizar as versões, bem como quem criou, data e mensagem aviso. Para sair do prompt do git log, digite **q**.
+    git log -> visualizar as versões, bem como quem criou, data e mensagem aviso. Para sair do prompt do git log, digite: q.
 
 E como faço para visualizar o estado do projeto no momento de determinado commit?
 Basta que digite o comando: **git checkout + código copiado da versão do commit desejado**, visto no git log.
