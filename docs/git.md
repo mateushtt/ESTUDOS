@@ -2,11 +2,13 @@
 
 ## Introdução
 
-No mundo do versionamento de projetos, duas ferramentas se destacam como indispensáveis: Git e Github. E não, ambos não são a mesma coisa, mas andam de mãos bem dadas.
+No mundo do versionamento de projetos, duas ferramentas se destacam como indispensáveis: Git e Github. E não, ambos não são a mesma
+coisa, mas andam de mãos bem dadas.
 
 ## O que é Git?
 
-Em poucas palavras, Git se trata de um software gerenciador de versões de projetos (Version Control System). E quando me refiro a projetos não precisa ser necessariamente os códigos de algum software, podem ser também livros, projetos de TCC etc.
+Em poucas palavras, Git se trata de um software gerenciador de versões de projetos (Version Control System). E quando me refiro a
+projetos não precisa ser necessariamente os códigos de algum software, podem ser também livros, projetos de TCC etc.
 
 ## Quando usar Git?
 
@@ -20,22 +22,28 @@ O Github seria a plataforma onde hospedariamos os nossos repositórios com proje
 
 ## Passo 1 - git init
 
-Primeiramente na pasta do projeto, devemos usar o comando **git init**. Isso fará com que o Git instale uma pasta .git e deixa sinalizado que todos os arquivos que estiverem dentro da pasta poderão ser versionados.
+Primeiramente na pasta do projeto, devemos usar o comando **git init**. Isso fará com que o Git instale uma pasta .git e deixa sinalizado
+que todos os arquivos que estiverem dentro da pasta poderão ser versionados.
 
 ## Passo 2 - controlar o acesso
 
 ### **Níveis do sistema**
 
 A configuração será para todo mundo do computador: --system
+
 A configuração será a mesma para todos os projetos do Git, para X usuário: --global
+
 Apenas este projeto: --local
 
 ### Comandos
 
-git config --global user.name -> define o nome de usuário, que será o mesmo para outros projetos.
-git config --global user.email -> define o email.
-git config --global -l -> lista as configuração padrão, mais as que foram adicionadas.
-git config --global core.editor visualstudiocode  -> define um editor de texto que o Git irá abrir caso seja necessário.
+    git config --global user.name -> define o nome de usuário, que será o mesmo para outros projetos.
+
+    git config --global user.email -> define o email.
+
+    git config --global -l -> lista as configuração padrão, mais as que foram adicionadas.
+
+    git config --global core.editor visualstudiocode  -> define um editor de texto que o Git irá abrir caso seja necessário.
 
 # Entendendo o Git Workflow
 
@@ -72,5 +80,4 @@ E como faço para visualizar o estado do projeto no momento de determinado commi
 Basta que digite o comando: **git checkout + código copiado da versão do commit desejado**, visto no git log.
 
 Para que vejamos as outras versões do projeto, primeiro precisamos retornar ao estado atual dele.
-Com o comando: **git checkout master**.
-E então repetir os passos anteriores para visualizar outras versões.
+Com o comando: **git checkout master**. E então repetir os passos anteriores para visualizar outras versões.
