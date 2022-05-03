@@ -29,11 +29,11 @@ que todos os arquivos que estiverem dentro da pasta poderão ser versionados.
 
 ### **Níveis do sistema**
 
-A configuração será para todo mundo do computador: --system
+    A configuração será para todo mundo do computador: --system
 
-A configuração será a mesma para todos os projetos do Git, para X usuário: --global
+    A configuração será a mesma para todos os projetos do Git, para X usuário: --global
 
-Apenas este projeto: --local
+    Apenas este projeto: --local
 
 ### Comandos
 
@@ -58,23 +58,23 @@ Por último, faremos com que o Git grave os históricos deste arquivo no estado 
 
 ### Termos importantes
 
-Commit - quando salvamos um espelho do arquivo.
+    Commit - quando salvamos um espelho do arquivo.
 
-Modified - arquivo que sofreu alterações e que já está sendo rastreado, mas ainda não foi salvo pelo commit.
+    Modified - arquivo que sofreu alterações e que já está sendo rastreado, mas ainda não foi salvo pelo commit.
 
-Tracked - arquivo quando está no estado de rastreável.
+    Tracked - arquivo quando está no estado de rastreável.
 
 ### Comandos
 
-git status -> para visualizar em que estágio está o projeto.
+    git status -> para visualizar em que estágio está o projeto.
 
-git add nomedoarquivo.tipo ou git add . -> adiciona um arquivo ou vários na stage.
+    git add nomedoarquivo.tipo ou git add . -> adiciona um arquivo ou vários na stage.
 
-git commit -m 'mensagem do que alteramos' ou git commit -am 'mensagem'(para arquivos já rastreados) -> aqui é quando salvamos uma versão do arquivo.  Ou com o -am já mandamos a alteração para o stage e fazemos um commit.
+    git commit -m 'mensagem do que alteramos' ou git commit -am 'mensagem'(para arquivos já rastreados) -> aqui é quando salvamos uma versão do arquivo.  Ou com o -am já mandamos a alteração para o stage e fazemos um commit.
 
-**DICA! Não faça commits para cada nova linha do arquivo, apenas quando fizer um conjunto de alterações que faça sentido entre si.**
+    **DICA! Não faça commits para cada nova linha do arquivo, apenas quando fizer um conjunto de alterações que faça sentido entre si.**
 
-git log -> visualizar as versões, bem como quem criou, data e mensagem aviso. Para sair do prompt do git log, digite **q**.
+    git log -> visualizar as versões, bem como quem criou, data e mensagem aviso. Para sair do prompt do git log, digite **q**.
 
 E como faço para visualizar o estado do projeto no momento de determinado commit?
 Basta que digite o comando: **git checkout + código copiado da versão do commit desejado**, visto no git log.
